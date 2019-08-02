@@ -39,8 +39,8 @@ Learn how to find these values [in this article](https://medium.com/@wbobeirne/m
 by Will O'Beirne. You can also try this tool by [lightning joule](https://lightningjoule.com/tools/node-info)
 
 ```
-LND_TLS_CERT=[BASE64 encoded cert here]
-LND_MACAROON=[hex encoded cert here]
+LND_TLS_CERT=[BASE64 encoded tls.cert here]
+LND_MACAROON=[BASE64 encoded admin.macaroon here]
 LND_SOCKET=[address of node here, e.g. localhost:10006]
 ```
 
